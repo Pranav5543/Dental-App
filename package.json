@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "dental-checkup-system",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -42,7 +42,8 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
-    "date-fns": "4.1.0",
+    "date-fns": "3.6.0",
+    "dental-checkup-system": "file:",
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",
     "jsonwebtoken": "^9.0.2",
@@ -73,5 +74,8 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
+  },
+  "overrides": {
+    "date-fns": "3.6.0"
   }
 }
